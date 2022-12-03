@@ -15,7 +15,7 @@ void GPIO_Setup(void);
 #define LED5_OFF GpioDataRegs.GPACLEAR.bit.GPIO4 = 1
 #define LED6_ON  GpioDataRegs.GPASET.bit.GPIO5 = 1
 #define LED6_OFF GpioDataRegs.GPACLEAR.bit.GPIO5 = 1
-
+//master test
 void main(void)
 {
 // Step 1.  初始化系统，锁相环,看门狗，外设时钟
